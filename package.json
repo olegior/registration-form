@@ -12,7 +12,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.46.1"
+    "react-hook-form": "^7.46.1",
+    "yuo": "^0.0.1",
+    "yup": "^1.2.0",
+    "yup-phone-lite": "^2.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
