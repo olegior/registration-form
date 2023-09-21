@@ -95,10 +95,11 @@ export const RegistrationForm = () => {
         </div>
         <CustomInput name={'phone'} rhf={rhf} type={'phone'} title={'Телефон'} />
         <input type='submit' disabled={!isValid} value={'Зарегестрироваться'}
-          className={`cursor-pointer border-2 p-2 mt-5 rounded ${isValid && 'hover:animate-pulse'} hover:bg-gray-100
+        // hover:animate-pulse
+          className={`cursor-pointer border-2 p-2 mt-5 rounded ${isValid && ' dark:hover:bg-gray-700 hover:bg-green-200'} 
            disabled:border-gray-400 disabled:text-gray-400 
            enabled:text-green-900 enabled:border-green-800
-           dark:enabled:text-white dark:hover:bg-gray-700`} />
+           dark:enabled:text-white `} />
         <div className='min-h-[10rem] max-h-40 mt-5'>
           {!!Object.keys(errors).length && <Toast errors={errors} />}
         </div>
